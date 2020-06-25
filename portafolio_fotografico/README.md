@@ -26,3 +26,4 @@ Permite al usuario crear un perfil con correo electrónico y una contraseña, el
 Página de favoritos:
 
 Lista de los favoritos del usuarios, se guardarán en una colección, con la opción de eliminar o agregar productos.
+
