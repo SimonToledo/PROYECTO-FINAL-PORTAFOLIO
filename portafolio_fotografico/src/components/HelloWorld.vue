@@ -5,20 +5,50 @@
       Fotografiando momentos inolvidables de tu vida.
     </p>
     <div>
-      
-    <img src="/assets/serena.jpg">
-    <b-card-text>
-      Some quick example text to build on the card and make up the bulk of the card's content.
-    </b-card-text>
 
-</div>
+    </div>
+    <section>
+      <div>
+      <div>
+        <h4>Top and Bottom</h4>
+        <b-card-group deck>
+          <b-card img img-alt="Card image" img-top>
+            <img src="../assets/01.jpg" alt="imagen" width="10%">
+            <b-card-text>
+              Some quick example text to build on the card and make up the bulk of the card's content.
+            </b-card-text>
+          </b-card>
+
+          <b-card img-src="../assets/02.jpg" alt="imagen" width="10%" img-bottom>
+            <b-card-text>
+              Some quick example text to build on the card and make up the bulk of the card's content.
+            </b-card-text>
+          </b-card>
+        </b-card-group>
+      </div>
+      <div class="mt-4">
+        <h4>Left and Right (or Start and End)</h4>
+        <b-card img-src="../assets/01.jpg" img-alt="Card image" img-left class="mb-3">
+          <b-card-text>
+            Some quick example text to build on the card and make up the bulk of the card's content.
+          </b-card-text>
+        </b-card>
+
+        <b-card img-src="../assets/01.jpg" alt="imagen" width="10%" img-right>
+          <b-card-text>
+            Some quick example text to build on the card and make up the bulk of the card's content.
+          </b-card-text>
+        </b-card>
+      </div>
+    </div>
+    </section>
+
     <h4>RRSS</h4>
     <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
+      <li><a href="https://www.facebook.com/simon.toledomorales" target="_blank" rel="noopener">Facebook</a></li>
+      <li><a href="https://www.instagram.com/simontoledo.ph/" target="_blank" rel="noopener">Instagram</a></li>
+      <li><a href="https://github.com/SimonToledo" target="_blank" rel="noopener">Github</a></li>
+      <li><a href="https://www.linkedin.com/in/sim%C3%B3n-toledo-morales-9b7191180/" target="_blank" rel="noopener">Linkedin</a></li>
     </ul>
   </div>
 </template>

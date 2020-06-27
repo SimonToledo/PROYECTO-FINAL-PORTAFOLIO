@@ -1,13 +1,19 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/portada.jpeg" width="15%" style="border-radius: 100%;">
-    <HelloWorld msg="Simón Toledo"/>
+    <HelloWorld class="Titulo" msg="Estudio Ágape"/>
   </div>
 </template>
 
 <style>
+
   div{
-    background-color: black;
+    background-color: #ffffff;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');
+
+  .Titulo{
+    font-family: 'Cinzel', serif;
   }
 
 </style>

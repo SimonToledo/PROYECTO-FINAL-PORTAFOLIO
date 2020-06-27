@@ -4,14 +4,15 @@
 
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+  <b-navbar toggleable="lg" type="dark" variant="info">
+    <b-navbar-brand href="#">NavBar</b-navbar-brand>
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <router-link to="/">Home</router-link> |
+          <router-link to="/">Home</router-link> |
         <router-link to="/about">About</router-link> |
         <router-view/>
       </b-navbar-nav>
-
 
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
@@ -38,18 +39,22 @@
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
+  </b-navbar>
 </div>
 </template>
 
 <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   height: 100px;
-  color: #eff3f7;
-  background-color: #000000a6;
+  color: #000000;
+  background-color: #ffffffa6;
 }
 
 #nav {
@@ -58,7 +63,7 @@
 
 #nav a {
   font-weight: bold;
-  color: #12171d;
+  color: #ffffff;
 }
 
 #nav a.router-link-exact-active {
