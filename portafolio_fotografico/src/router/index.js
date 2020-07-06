@@ -22,6 +22,11 @@ Vue.use(VueRouter)
     path: '/sesiones',
     name: "Sesiones",
     component: () => import('../views/Sesiones.vue')
+  },
+  {
+    path: '/nosotros',
+    name: "Nosotros",
+    component: ()=> import('../views/Nosotros.vue')
   }
 ]
 

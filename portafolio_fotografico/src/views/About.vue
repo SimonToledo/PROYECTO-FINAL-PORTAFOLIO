@@ -1,7 +1,7 @@
 <template>
   <div class="about">
-    <h1>CONTÁCTANOS</h1>
-        <section>
+    <h1 class="title">CONTÁCTANOS</h1>
+      <section>
       <div>
       <div>
         <b-card-group deck>
@@ -23,3 +23,10 @@
     </section>
   </div>
 </template>
+
+<style scoped>
+
+  .title{
+    font-size: 3rem;
+  }
+</style>

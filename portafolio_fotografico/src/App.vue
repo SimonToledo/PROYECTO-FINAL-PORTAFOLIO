@@ -3,7 +3,8 @@
     <div id="nav">
       <router-link to="/">HOME</router-link> |
       <router-link id="links" to="/sesiones">SESIONES</router-link> |
-      <router-link id="links" to="/about">CONTACTO</router-link> 
+      <router-link id="links" to="/about">CONTACTO</router-link> |
+      <router-link id="links" to="/nosotros">NOSOTROS</router-link>
      <router-view />
     </div>
   </div>
@@ -26,8 +27,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   height: 100px;
-  color: #ffffff;
-  background-image: url('./assets/12.jpg');
+  color: #000000;
 }
 
 #nav {
@@ -42,7 +42,7 @@ font-family: 'Fredericka the Great', cursive;
 }
 
 #nav a.router-link-exact-active{
-  color: #ffffff;
+  color: #000000;
 }
 
 

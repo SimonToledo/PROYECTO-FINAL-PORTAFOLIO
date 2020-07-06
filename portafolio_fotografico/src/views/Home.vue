@@ -48,7 +48,7 @@
 
   .Titulo{
     font-family: 'Sacramento', cursive;
-    color: cornsilk;
+    color: rgb(0, 0, 0);
   }
   .row{
     font-family: 'Merriweather';

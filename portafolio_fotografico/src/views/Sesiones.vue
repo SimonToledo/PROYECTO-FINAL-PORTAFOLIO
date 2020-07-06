@@ -1,8 +1,8 @@
 <template>
   <div class="sesiones">
-    <br><br>
+    <br>
       <section>
-          <h1>Sesiones</h1>
+          <h1 class="title">Sesiones fotográficas</h1>
       <div>
         <div>
           <b-card-group deck>
@@ -25,3 +25,14 @@
     </section>
   </div>
 </template>
+
+<style scoped>
+
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet"');
+
+  .title{
+    font-family: 'Galada', cursive;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+  }
+</style>

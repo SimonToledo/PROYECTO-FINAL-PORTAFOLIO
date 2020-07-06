@@ -1,7 +1,6 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <div></div>
     <br>
     <section>
       <div>
@@ -22,9 +21,6 @@
           <img src="../assets/08.jpg" alt="image" width="100%" img-left>
         </b-card>
         <br><br>
-        <b-card>
-          <img src="../assets/03.jpg" alt="imagen" width="100%" img-right>
-        </b-card>
       </div>
     </div>
     </section>
@@ -46,6 +42,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+h1{
+  padding-top: 2rem;
+  font-size: 5rem;
+}
+
 h3 {
   margin: 40px 0 0;
 }
@@ -60,4 +62,5 @@ li {
 a {
   color: #000000;
 }
+
 </style>
