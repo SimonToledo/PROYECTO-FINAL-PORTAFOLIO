@@ -2,8 +2,8 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">HOME</router-link> |
-      <router-link id="links" to="/productos">SESIONES</router-link> |
-      <router-link id="links" to="/productos">CONTACTO</router-link> 
+      <router-link id="links" to="/sesiones">SESIONES</router-link> |
+      <router-link id="links" to="/about">CONTACTO</router-link> 
      <router-view />
     </div>
   </div>
@@ -12,7 +12,9 @@
 <style>
 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');
-  @import url('https://fonts.googleapis.com/css?family=Merriweather:700,700i,300i,300,400,400i');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:700,700i,300i,300,400,400i');
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet"');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet');
 
 .links{
   color:rgb(255, 255, 255);
@@ -30,12 +32,12 @@
 
 #nav {
   padding: 20px;
-  font-family: 'Merriweather';
+font-family: 'Fredericka the Great', cursive;
   color: rgb(0, 0, 0);
 }
 
 #nav a {
-  font-weight: 'Merriweather';
+font-family: 'Fredericka the Great', cursive;
   color: #000000;
 }
 

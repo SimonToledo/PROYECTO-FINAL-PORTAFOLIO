@@ -13,8 +13,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-lg-8 mx-auto">
-            <p>Este es un blog dedicado al mundo automotor, en el cual te mostraré las últimas novedades de automóviles, los lanzamientos más recientes y te enseñaremos algunos tips para cuidar tu vehículo.</p>
-            <p>Este es un medio independiente. Si te gusta nuestro contenido, ayúdanos en Patreon o haciendo una donación a través de PayPal. Te lo agradeceré mucho.</p>
+            <p>Este es un portafolio web creado para compartir nuestros trabajos fotográficos.</p>
+            <p>Este es un medio independiente. Si te gusta nuestro contenido, no dudes en contactarnos.</p>
         </div>
       </div>
     </div>
@@ -43,9 +43,11 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');
   @import url('https://fonts.googleapis.com/css?family=Merriweather:700,700i,300i,300,400,400i');
+  @import url('https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet"');
+  @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet"');
 
   .Titulo{
-    font-family: 'Cinzel', serif;
+    font-family: 'Sacramento', cursive;
     color: cornsilk;
   }
   .row{
