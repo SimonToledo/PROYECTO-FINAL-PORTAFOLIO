@@ -1,25 +1,19 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>
-      Fotografiando momentos inolvidables de tu vida.
-    </p>
-    <div>
-
-    </div>
+    <div></div>
     <section>
       <div>
       <div>
-        <h4>Top and Bottom</h4>
         <b-card-group deck>
           <b-card img img-alt="Card image" img-top>
-            <img src="../assets/01.jpg" alt="imagen" width="10%">
+            <img src="../assets/11.jpg" alt="imagen" width="100%">
             <b-card-text>
               Some quick example text to build on the card and make up the bulk of the card's content.
             </b-card-text>
           </b-card>
-
-          <b-card img-src="../assets/02.jpg" alt="imagen" width="10%" img-bottom>
+          <b-card>
+          <img src="../assets/03.jpg" alt="imagen" width="100%" img-bottom>
             <b-card-text>
               Some quick example text to build on the card and make up the bulk of the card's content.
             </b-card-text>
@@ -27,14 +21,16 @@
         </b-card-group>
       </div>
       <div class="mt-4">
-        <h4>Left and Right (or Start and End)</h4>
-        <b-card img-src="../assets/01.jpg" img-alt="Card image" img-left class="mb-3">
+        <h4>OTRO TITULO</h4>
+        <b-card>
+          <img src="../assets/08.jpg" alt="image" width="100%" img-left>
           <b-card-text>
             Some quick example text to build on the card and make up the bulk of the card's content.
           </b-card-text>
         </b-card>
 
-        <b-card img-src="../assets/01.jpg" alt="imagen" width="10%" img-right>
+        <b-card>
+          <img src="../assets/03.jpg" alt="imagen" width="100%" img-right>
           <b-card-text>
             Some quick example text to build on the card and make up the bulk of the card's content.
           </b-card-text>

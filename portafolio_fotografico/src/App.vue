@@ -9,8 +9,9 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-          <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link> |
+        <router-link to="/">Home</router-link> |
+        <router-link to="/about">Contacto</router-link> |
+        <router-link to="sesiones">Sesiones</router-link>
         <router-view/>
       </b-navbar-nav>
 
@@ -20,13 +21,6 @@
           <b-form-input size="sm" class="mr-sm-2" placeholder="Search"></b-form-input>
           <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
         </b-nav-form>
-
-        <b-nav-item-dropdown text="Lang" right>
-          <b-dropdown-item href="#">EN</b-dropdown-item>
-          <b-dropdown-item href="#">ES</b-dropdown-item>
-          <b-dropdown-item href="#">RU</b-dropdown-item>
-          <b-dropdown-item href="#">FA</b-dropdown-item>
-        </b-nav-item-dropdown>
 
         <b-nav-item-dropdown right>
           <!-- Using 'button-content' slot -->
@@ -45,10 +39,10 @@
 
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:700,700i,300i,300,400,400i');
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Avenir, Merriweather, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
