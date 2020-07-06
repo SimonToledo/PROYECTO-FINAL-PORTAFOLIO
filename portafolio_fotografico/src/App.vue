@@ -1,66 +1,47 @@
 <template>
-<div id="app">
-  <b-navbar toggleable="lg" type="dark" variant="info">
-
-
-    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-  <b-navbar toggleable="lg" type="dark" variant="info">
-    <b-navbar-brand href="#">NavBar</b-navbar-brand>
-
-    <b-collapse id="nav-collapse" is-nav>
-      <b-navbar-nav>
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">Contacto</router-link> |
-        <router-link to="sesiones">Sesiones</router-link>
-        <router-view/>
-      </b-navbar-nav>
-
-      <!-- Right aligned nav items -->
-      <b-navbar-nav class="ml-auto">
-        <b-nav-form>
-          <b-form-input size="sm" class="mr-sm-2" placeholder="Search"></b-form-input>
-          <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
-        </b-nav-form>
-
-        <b-nav-item-dropdown right>
-          <!-- Using 'button-content' slot -->
-          <template v-slot:button-content>
-            <em>User</em>
-          </template>
-          <b-dropdown-item href="#">Profile</b-dropdown-item>
-          <b-dropdown-item href="#">Sign Out</b-dropdown-item>
-        </b-nav-item-dropdown>
-      </b-navbar-nav>
-    </b-collapse>
-  </b-navbar>
-  </b-navbar>
-</div>
+  <div id="app">
+    <div id="nav">
+      <router-link to="/">HOME</router-link> |
+      <router-link id="links" to="/productos">SESIONES</router-link> |
+      <router-link id="links" to="/productos">CONTACTO</router-link> 
+     <router-view />
+    </div>
+  </div>
 </template>
 
 <style>
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather:700,700i,300i,300,400,400i');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Merriweather:700,700i,300i,300,400,400i');
+
+.links{
+  color:rgb(255, 255, 255);
+}
 
 #app {
-  font-family: Avenir, Merriweather, Helvetica, Arial, sans-serif;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   height: 100px;
-  color: #000000;
-  background-color: #ffffffa6;
+  color: #ffffff;
+  background-image: url('./assets/12.jpg');
 }
 
 #nav {
-  padding: 30px;
+  padding: 20px;
+  font-family: 'Merriweather';
+  color: rgb(0, 0, 0);
 }
 
 #nav a {
-  font-weight: bold;
+  font-weight: 'Merriweather';
+  color: #000000;
+}
+
+#nav a.router-link-exact-active{
   color: #ffffff;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+
 </style>

@@ -2,6 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <div></div>
+    <br>
     <section>
       <div>
       <div>
@@ -38,14 +39,6 @@
       </div>
     </div>
     </section>
-
-    <h4>RRSS</h4>
-    <ul>
-      <li><a href="https://www.facebook.com/simon.toledomorales" target="_blank" rel="noopener">Facebook</a></li>
-      <li><a href="https://www.instagram.com/simontoledo.ph/" target="_blank" rel="noopener">Instagram</a></li>
-      <li><a href="https://github.com/SimonToledo" target="_blank" rel="noopener">Github</a></li>
-      <li><a href="https://www.linkedin.com/in/sim%C3%B3n-toledo-morales-9b7191180/" target="_blank" rel="noopener">Linkedin</a></li>
-    </ul>
   </div>
 </template>
 
@@ -72,6 +65,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #000000;
 }
 </style>
