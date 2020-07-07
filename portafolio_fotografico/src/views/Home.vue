@@ -10,14 +10,6 @@
           </div>
         </div>
     </header>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10 col-lg-8 mx-auto">
-            <p>Este es un portafolio web creado para compartir nuestros trabajos fotográficos.</p>
-            <p>Este es un medio independiente. Si te gusta nuestro contenido, no dudes en contactarnos.</p>
-        </div>
-      </div>
-    </div>
           <hr>
     <footer>
         <div class="container">
