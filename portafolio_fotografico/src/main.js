@@ -10,7 +10,7 @@ import { firebaseConfig } from "./config/FirebaseConfig";
 // Initializador de Firebase
 firebase.initializeApp(firebaseConfig);
 
-//export const db = firebase.firestore(); para después, primero a terminar lo que falta...
+export const db = firebase.firestore();
 
 
 Vue.config.productionTip = false

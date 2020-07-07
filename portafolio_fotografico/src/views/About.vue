@@ -1,18 +1,14 @@
 <template>
   <div class="about">
     <h1 class="title">CONTÁCTANOS</h1>
-      <section>
-      <div>
-      <div>
-        <b-card-group deck>
-          <b-card>
-          <img src="../assets/03.jpg" alt="imagen" width="100%" img-bottom>
-          </b-card>
-        </b-card-group>
-      </div>
+    <div class="login">
+    <label for="email">Ingrese el correo electrónico.</label>
+    <input type="email">
+    <label for="clave">Ingrese la contraseña.</label>
+    <input type="password">
+    <button>Entrar</button>
     </div>
-    </section>
-  </div>
+    </div>
 </template>
 
 <style scoped>
@@ -21,3 +17,9 @@
     font-size: 3rem;
   }
 </style>
+
+<script>
+export default {
+  name: 'about',
+}
+</script>
